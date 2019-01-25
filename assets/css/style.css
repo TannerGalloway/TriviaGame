@@ -1,0 +1,29 @@
+body
+{
+    background: url("../images/blue_vector_background.jpg");
+    background-size: 1550px 760px;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.container
+{
+    background-color: #cff089;
+}
+
+h1
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+}
+
+.alignment
+{
+    text-align: center;
+    padding: 20px;
+}
+
+#time
+{
+    padding-bottom: 10px;
+}
