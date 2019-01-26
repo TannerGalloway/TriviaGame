@@ -45,7 +45,7 @@ var question2 =
     answer3: "Madison's Online Boarding Academy",
     answer4: "Multiplayer Online Battle Arena",
     correct: "Multiplayer Online Battle Arena",
-    image: "assets/images/moba.jpg"
+    image: "assets/images/Moba.jpg"
 };
 
 var question3 =
