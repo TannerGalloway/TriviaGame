@@ -8,19 +8,19 @@
     <title>Trivia Game</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="container">
         <div class="alignment">
-            <h1>Trivia Game</h1>
+            <h1>Video Game Trivia</h1>
         </div>
         <div class="alignment">
             <button type="button" class="btn btn-primary btn-lg" id="start">Start</button>
-            <h1 id="question"></h1>
-            <h3 id="time"></h3>
+            <h4 id="question"></h4>
+            <h5 id="time"></h5>
             <button type="button" class="btn btn-info btn-lg btn-block" id="answer1"></button>
             <button type="button" class="btn btn-info btn-lg btn-block" id="answer2"></button>
             <button type="button" class="btn btn-info btn-lg btn-block" id="answer3"></button>
@@ -29,9 +29,14 @@
             <h3 id="corectAnswer"></h3>
             <h3 id="resultMessage"></h3>
             <h3 id="answeredCorrect"></h3>
-            <h3 id="answeredIncorrect"></h3>
+            <h3 id="answeredIncorrect"></h3>    
             <h3 id="unanswered"></h3>
+            <button type="button" class="btn btn-primary btn-lg" id="restart">Restart</button>
         </div>
+        <div class="text-center" id="adjustment">
+            <img id="questionImages">
+            <img id="resultImage">
+          </div>
     </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

@@ -1,20 +1,21 @@
 body
 {
-    background: url("../images/blue_vector_background.jpg");
+    background: url("../images/Video-Game-Characters.jpg");
     background-size: 1550px 760px;
     background-repeat: no-repeat;
     margin: 20px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .container
 {
-    background-color: #cff089;
+    background-color: #778899;
 }
 
 h1
 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 50px;
+
+    font-size: 30px;
 }
 
 .alignment
@@ -26,4 +27,35 @@ h1
 #time
 {
     padding-bottom: 10px;
+}
+
+
+.btn-primary
+{
+    background-color: #00468b;
+    border-color: #00468b;
+}
+
+.btn-info
+{
+    background-color: #00468b;
+    border-color: #00468b;
+}
+
+img
+{
+    width: 280px;
+    height: 255px
+    
+    
+}
+
+#adjustment
+{
+    padding: 20px;
+}
+
+#restart
+{
+    align-content: center;
 }
